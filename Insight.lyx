@@ -1,0 +1,562 @@
+#LyX 2.5 created this file. For more info see https://www.lyx.org/
+\lyxformat 643
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass book
+\begin_preamble
+\usepackage{titlesec}
+
+% ----------------------------
+% Title metadata
+% ----------------------------
+\title{Your Book Title}
+\author{Your Name}
+\date{}
+
+% ----------------------------
+% Replace \maketitle completely
+% ----------------------------
+\makeatletter
+\renewcommand{\maketitle}{%
+  \begin{titlepage}
+    \centering
+    \vspace*{\fill}
+    {\Huge\bfseries \@title \par}
+    \ifx\@author\@empty\else
+      \vspace{1.5em}
+      {\Large \@author \par}
+    \fi
+    \vspace*{\fill}
+  \end{titlepage}
+}
+\makeatother
+
+% ----------------------------
+% Center all headings
+% ----------------------------
+\titleformat{\part}[display]
+  {\centering\normalfont\Huge\bfseries}
+  {\partname\ \thepart}
+  {1ex}
+  {}
+
+\titleformat{\chapter}[display]
+  {\centering\normalfont\LARGE\bfseries}
+  {\chaptertitlename\ \thechapter}
+  {1ex}
+  {}
+
+\titleformat{\section}
+  {\centering\normalfont\Large\bfseries}
+  {\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\centering\normalfont\large\bfseries}
+  {\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\centering\normalfont\normalsize\bfseries}
+  {\thesubsubsection}{1em}{}
+
+% ----------------------------
+% Chapter spacing
+% ----------------------------
+\titlespacing*{\chapter}{0pt}{0pt}{2em}
+
+% ----------------------------
+% Chapter caption
+% ----------------------------
+\newcommand{\chaptercaption}[1]{%
+  \par
+  \vspace{0.75em}
+  {\centering\large\textperiodcentered\par}
+  \vspace{0.5em}
+  {\centering\itshape #1\par}
+  \vspace{1em}
+}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children no
+\language american
+\language_package default
+\inputencoding utf8
+\fontencoding auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize default
+\spacing onehalf
+\use_hyperref false
+\papersize letter
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification default
+\crossref_package refstyle
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\backgroundcolor none
+\fontcolor none
+\notefontcolor lightgray
+\boxbgcolor red
+\table_border_color default
+\table_odd_row_color default
+\table_even_row_color default
+\table_alt_row_colors_start 1
+\index Index
+\shortcut idx
+\color #008080
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip halfline
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\docbook_mathml_version 0
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Seeing
+\begin_inset Newline newline
+\end_inset
+
+A Practice
+\end_layout
+
+\begin_layout Chapter*
+\paragraph_spacing onehalf
+Invitation
+\end_layout
+
+\begin_layout Standard
+This is an invitation to spiritual discipline.
+ It asks for both compassion and diligence:
+ compassion,
+ so that one does not turn truth into cruelty;
+ diligence,
+ so that one does not evade truth in the name of comfort.
+ Others may offer company,
+ witness,
+ and the strength of example.
+ One may draw courage from those who have walked before.
+ But no one can walk this path in another’s place.
+ It cannot be handed over,
+ borrowed,
+ or completed by proxy.
+ It must become one’s own through honest practice.
+\end_layout
+
+\begin_layout Standard
+At times,
+ it may help to name the kind of work that is being asked:
+ to gather,
+ to see,
+ to release,
+ or to act.
+ The name does not resolve the difficulty,
+ but it may help one take up the right discipline.
+\end_layout
+
+\begin_layout Chapter*
+Demeter
+\end_layout
+
+\begin_layout Section*
+Grounding
+\end_layout
+
+\begin_layout Standard
+What inner ground must be prepared so that truth can be borne?
+\end_layout
+
+\begin_layout Standard
+Begin by gathering yourself.
+ Do not rush toward judgment,
+ interpretation,
+ or remedy.
+ Attend first to the condition in which you are meeting the question.
+ What in you is scattered,
+ braced,
+ inflamed,
+ collapsed,
+ or estranged from itself?
+ What must be steadied,
+ softened,
+ or made spacious before truth can be approached without violence?
+\end_layout
+
+\begin_layout Standard
+This is not a demand for calm.
+ It is the work of emotional regulation:
+ the gradual building of capacity to remain present with what is real without immediate reaction,
+ distortion,
+ or flight.
+ Not suppression,
+ not control,
+ but the ability to stay.
+\end_layout
+
+\begin_layout Standard
+The work here is not to force calm,
+ but to prepare a field in which truth can be borne without immediate distortion.
+ Demeter does not rush the harvest.
+ Where the ground has been broken or scorched,
+ she withholds.
+ Nothing grows until the field is tended.
+ To be with Demeter is to refuse false readiness,
+ and to prepare conditions in which something living could take root.
+\end_layout
+
+\begin_layout Standard
+Name your state in plain words:
+ scattered,
+ braced,
+ numb,
+ ashamed,
+ enraged,
+ afraid.
+\end_layout
+
+\begin_layout Standard
+Do nothing irreversible until your body is less inflamed.
+\end_layout
+
+\begin_layout Standard
+Ask:
+ what would help me stay present for five more minutes?
+\end_layout
+
+\begin_layout Standard
+See Prentis Hemphill —
+ Finding Our Way;
+ Mia Mingus —
+ What is Accountability?
+\end_layout
+
+\begin_layout Chapter*
+Apollo
+\end_layout
+
+\begin_layout Section*
+Insight
+\end_layout
+
+\begin_layout Standard
+What is truly here?
+\end_layout
+
+\begin_layout Standard
+If you cannot see,
+ ask why you cannot see.
+\end_layout
+
+\begin_layout Standard
+Where does the will hesitate,
+ withdraw,
+ or refuse?
+\end_layout
+
+\begin_layout Standard
+What would need to change for the “cannot” to become a “can”?
+\end_layout
+
+\begin_layout Standard
+What are you adding that narrows the possible,
+ and why does it hold such power?
+\end_layout
+
+\begin_layout Standard
+The work here is to notice what has been laid upon the fact:
+ fear,
+ law,
+ habit,
+ shame,
+ loyalty,
+ inheritance,
+ despair.
+ Do not begin by trying to force a new answer.
+ Begin by seeing clearly what constrains sight itself.
+ Say what happened before you say what it means.
+ Separate the fact from the interpretation,
+ and the interpretation from the fear that sustains it.
+\end_layout
+
+\begin_layout Standard
+Apollo does not soften what is seen.
+ He clarifies.
+ He separates what is from what has been placed upon it.
+ To stand with Apollo is to endure this light:
+ to let the fact stand without adornment,
+ and to see what has been added in order to bear it or avoid it.
+\end_layout
+
+\begin_layout Standard
+Write the fact in one sentence,
+ without motive or explanation.
+\end_layout
+
+\begin_layout Standard
+List what you know,
+ what you infer,
+ and what you fear.
+\end_layout
+
+\begin_layout Standard
+Ask:
+ what am I adding,
+ and what would remain if I stopped adding it?
+\end_layout
+
+\begin_layout Standard
+See also:
+ Dean Spade —
+ Love in a Fcked-Up World*;
+ Kai Cheng Thom —
+ Conflict is a system demanding transformation
+\end_layout
+
+\begin_layout Chapter*
+Persephone
+\end_layout
+
+\begin_layout Section*
+Release
+\end_layout
+
+\begin_layout Standard
+What must be let go,
+ and what returns changed?
+\end_layout
+
+\begin_layout Standard
+Do not ask only what you wish to keep.
+ Ask also what has already ended,
+ what can no longer be carried,
+ what asks to be buried,
+ surrendered,
+ or relinquished.
+ What identity,
+ hope,
+ law,
+ grievance,
+ attachment,
+ or interpretation has bound itself to the pain and now claims necessity?
+ What must be released so that life is no longer spent protecting what has already died?
+\end_layout
+
+\begin_layout Standard
+The work here is not mere loss.
+ It is descent,
+ transformation,
+ and return.
+ What comes back from this letting-go may not be what was lost,
+ but something altered,
+ ripened,
+ and capable of living differently.
+ Let release become concrete:
+ not a mood,
+ but a cessation.
+ Stop feeding what is already over.
+ Stop preserving what survives only by your fear of its ending.
+\end_layout
+
+\begin_layout Standard
+Persephone does not ask whether one wishes to descend.
+ She asks what becomes of a life once descent has already occurred.
+ To be with Persephone is to remain with what cannot be undone,
+ and to release not only what has ended,
+ but the meanings that kept it in place.
+ What is relinquished here may be the very way the pain has made the world make sense.
+\end_layout
+
+\begin_layout Verse
+Name one thing that is already over.
+\end_layout
+
+\begin_layout Verse
+Stop one act of preservation that keeps the dead thing in place.
+\end_layout
+
+\begin_layout Verse
+Grieve the loss without arguing against it.
+\end_layout
+
+\begin_layout Verse
+See also:
+ Leah Lakshmi Piepzna-Samarasinha —
+ Care Work;
+ Mariame Kaba —
+ Harm,
+ Punishment,
+ and Abolition
+\end_layout
+
+\begin_layout Chapter*
+Themis
+\end_layout
+
+\begin_layout Standard
+Action
+\end_layout
+
+\begin_layout Standard
+What is the right measure of action now?
+\end_layout
+
+\begin_layout Standard
+Let action be guided neither by panic nor by grandiosity.
+ Ask what is justly sized to the truth that has been seen.
+ What belongs to this moment,
+ and what does not?
+ What is required,
+ what is possible,
+ and what is excess?
+\end_layout
+
+\begin_layout Standard
+The work here is not to do everything,
+ nor to prove worth through effort,
+ but to act in right measure:
+ faithfully,
+ proportionately,
+ and without self-deception.
+ Let the next act arise from truth,
+ not compulsion.
+ Choose the act you can actually complete,
+ not the one that flatters your self-image or punishes your failure.
+\end_layout
+
+\begin_layout Standard
+Themis concerns herself not with intensity,
+ but with proportion.
+ She gives each thing its weight,
+ and no more.
+ To stand with Themis is to act without excess:
+ neither shrinking from what is required nor enlarging oneself beyond one’s measure.
+ What is asked is not everything,
+ but what is justly yours to do.
+\end_layout
+
+\begin_layout Standard
+Choose one next act that can be done today.
+\end_layout
+
+\begin_layout Standard
+Name what is yours to do and what is not.
+\end_layout
+
+\begin_layout Standard
+Refuse one excessive act driven by panic,
+ guilt,
+ or display.
+\end_layout
+
+\begin_layout Standard
+See also:
+ Staci K.
+ Haines —
+ On Somatics and Social Justice;
+ Shery Mead —
+ Intentional Peer Support
+\end_layout
+
+\begin_layout Part*
+Appendix —
+ Crossings and Conditions
+\end_layout
+
+\begin_layout Standard
+Some conditions shape the practice at every stage:
+ illness,
+ incapacity,
+ constraint,
+ grief,
+ and the limits of what can be changed.
+ These are not obstacles to the work.
+ They are part of its ground.
+ A practice that cannot bear weakness,
+ dependence,
+ recurrence,
+ or fatigue is too fragile to tell the truth.
+ Let the measure of the work include the body that must do it,
+ the conditions under which it is being done,
+ and the realities that do not yield simply because they are unwanted.
+\end_layout
+
+\begin_layout Standard
+Let limitation count as real information.
+\end_layout
+
+\begin_layout Standard
+Do not confuse incapacity with failure.
+\end_layout
+
+\begin_layout Standard
+Measure the practice by truthfulness,
+ not by output.
+\end_layout
+
+\begin_layout Standard
+See also:
+ Eli Clare —
+ Grappling with Cure;
+ Johanna Hedva —
+ Future Present
+\end_layout
+
+\end_body
+\end_document
